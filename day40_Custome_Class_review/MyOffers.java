@@ -46,4 +46,6 @@ public class MyOffers {
             System.out.println("Number of Offers: "+jobOffers.size());
 
         }
+
+
 }
