@@ -32,7 +32,7 @@ public class Lambda_Expression {
             numbers.add(i);
         }
 
-        numbers.removeIf(oddNumbers);     // remove if the numbers is odd
+       // numbers.removeIf(oddNumbers);     // remove if the numbers is odd
 
         // OR we can give predicate right away
         numbers.removeIf(p -> p % 2 == 0);      // remove if the number is even
@@ -51,7 +51,7 @@ public class Lambda_Expression {
         System.out.println(names);
 
         names.removeIf(p -> p.startsWith("M") && p.endsWith("y"));
-        System.out.println(names);                  // [Monica, Musti, Sumeyra, Hasan, Beril]
+        System.out.println(names);                                 // [Monica, Musti, Sumeyra, Hasan, Beril]
 
     }
 }
