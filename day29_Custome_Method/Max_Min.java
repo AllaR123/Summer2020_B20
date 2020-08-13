@@ -7,14 +7,14 @@ public class Max_Min {
         int max = arr[0];
         int min = arr[0];
 
-        for(int each : arr) {
-            if(max < each) {
+        for (int each : arr) {
+            if (max < each) {
                 max = each;
             }
         }
 
-        for(int each : arr) {
-            if(min > each) {
+        for (int each : arr) {
+            if (min > each) {
                 min = each;
             }
         }
@@ -22,4 +22,11 @@ public class Max_Min {
         System.out.println(max);
         System.out.println(min);
     }
+
+    public static void main(String[] args) {
+
+        int[] arr = {3, 4, 5, 7, 9, 100};
+        MaxMin(arr);
+    }
+
 }
