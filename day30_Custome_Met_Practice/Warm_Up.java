@@ -18,19 +18,16 @@ public class Warm_Up {
     public static void main(String[] args) {
 
         maxNum(8,3);
+
         int[] nums = {10, 11, 8, 9, 12, 5, 15};
-
-
         arrDescending(nums);
         System.out.println();
 
 
         int[] arr = {1,2,3};
         int[] arr2 = {4,5,6};
-
         int[] arr4 = combination(arr, arr2);       // this one  is return type
         System.out.println(Arrays.toString(arr4));
-
 
 
         int[] num3 = {1,2,3,4,5};
