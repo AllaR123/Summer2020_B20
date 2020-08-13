@@ -16,6 +16,7 @@ public class WrapperClass {
 
         Byte b1 = 50;
         int n1 = b1;
+        System.out.println(n1);     // 50
 
         byte b2 = 40;
        // Integer n2 = b2;
