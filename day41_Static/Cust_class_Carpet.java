@@ -55,6 +55,12 @@ if the carpet is persian  carpet that's came from Turkey, add 200$ to the totalP
 
     }
 
+    public String toString() {
+
+        return width + " " + length + " " + isPersian;
+
+    }
+
 
 
 }
