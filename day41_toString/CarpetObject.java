@@ -1,6 +1,4 @@
-package day41_Static;
-
-import day41_Static.Cust_class_Carpet;
+package day41_toString;
 
 import java.util.ArrayList;
 
