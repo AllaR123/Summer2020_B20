@@ -19,10 +19,12 @@ public class Car {
 
     public void start(){
         System.out.println("Starting "+brand+" "+model);
+        System.out.println("This car has " + hasDoors);
     }
 
     public static void printTires(){
         System.out.println(numberOfTires+" Tires");
+
     }
 
     public String toString(){
