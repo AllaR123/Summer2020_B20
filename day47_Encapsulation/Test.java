@@ -39,6 +39,7 @@ public class Test {
         System.out.println("==============================================");
 
         CapitalONeEmployees obj3 = new CapitalONeEmployees("Alla", 32, "SDET");
+        System.out.println(obj3);       // from toString method
 
         obj3.setAddress("124 Ellington Blvd, Arlington, VA");
         obj3.setSalary(130000);

@@ -48,4 +48,10 @@ public class CapitalONeEmployees {
         return address;
     }
 
+
+    public String toString() {
+
+        return employeeName + " " + employeeAge + " " + jpbTitle;
+    }
+
 }
