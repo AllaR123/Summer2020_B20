@@ -429,6 +429,15 @@ public class Util {
         return arr;
     }
 
+    public static void sleep(int seconds) {         // custom method for Thread.sleep
+
+        try {
+            Thread.sleep(seconds  * 1000);
+        } catch (Exception e) {
+        }
+
+    }
+
 
 
 }
