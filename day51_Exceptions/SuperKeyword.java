@@ -14,12 +14,14 @@ public class SuperKeyword  extends Test {
     // a = 300;
 
     public void print1() {
+
         System.out.println(a);      // SuperKeyword' a ==> 300
     }
 
 
 
     public void print2() {
+
         System.out.println(super.a);    //  calling a from super class. Test' a ==> 200
     }
 
@@ -43,8 +45,10 @@ public class SuperKeyword  extends Test {
 
 
         obj2.print1();      // 300
-        obj2.print2();      // 300
+        obj2.print2();      // 300 (has to be 200)
+
         obj2.method2();     // Hello. Hola
+        System.out.println("=================================================");
         obj2.method3();     // Hello. Hola. Hello
 
     }
