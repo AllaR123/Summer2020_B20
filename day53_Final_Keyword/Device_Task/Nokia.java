@@ -28,4 +28,10 @@ public class Nokia extends  Device {
         System.out.println("Nokia "+model+" is texting to: "+phoneNumber);
     }
 
+
+//    @Override
+//    public String toString(){
+//        return "Brand: "+brand+" Model: "+model+" Price: $"+price+" Made in: "+madeIn;
+//    }
+
 }
