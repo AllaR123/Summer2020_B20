@@ -7,7 +7,6 @@ class C{
 public final class FinalClass  extends  C {  // final class can be a child class
 
 
-
 }
 
 

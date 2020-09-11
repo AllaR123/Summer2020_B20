@@ -25,8 +25,9 @@ public class Cat extends Pets {
 
     }
 
-    @Override
+    @Override                                // optinal to give
     public String toString() {
+
         return super.toString();
     }
 }

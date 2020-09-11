@@ -28,10 +28,12 @@ public class WebDriver {
      */
 
     public void get(String url) {
+
         System.out.println("URL opened url "  + url + "default browser");
     }
 
     public void close() {
+
         System.out.println("Closing default browser");
     }
 }

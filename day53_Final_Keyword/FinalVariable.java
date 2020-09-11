@@ -7,14 +7,15 @@ import java.time.LocalDate;
         final static String eyeColor = "Brown";
         final String bloodType = "A";
 
-        final int x; // final instance variables need to be initialized right away
-        final static int y; // final instance variables need to be initialized right away
+        final int x; // final instance variables need to be initialized right away OR in the Constructor
+        final static int y; // final static variables need to be initialized right away OR in the static block
 
         static{
             y = 300;
         }
 
         public FinalVariable(){
+
             x = 700;
         }
 
