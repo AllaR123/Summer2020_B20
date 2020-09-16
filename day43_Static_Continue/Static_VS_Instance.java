@@ -10,7 +10,7 @@ public class Static_VS_Instance {
 
         Static_VS_Instance obj1 = new Static_VS_Instance();
         obj1.instanceVar = 100;
-        staticVar = 50;
+        Static_VS_Instance.staticVar = 50;      // OR staticVar = 50;
 
         Static_VS_Instance obj2 = new Static_VS_Instance();
         obj2.instanceVar  = 200;
