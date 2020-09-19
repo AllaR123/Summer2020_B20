@@ -4,5 +4,7 @@ public interface Talkative {
 
     boolean canTalk = true;
 
-    public abstract void talk();
+   // public abstract void talk();
+
+    void talk();
 }

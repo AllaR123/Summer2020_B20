@@ -2,5 +2,7 @@ package day56_Abstraction_Interface.AnimalTask;
 
 public interface Swimmable {
 
-    public abstract void swim();
+    // public abstract void swim();
+
+    void swim();
 }

@@ -4,5 +4,6 @@ public interface Playable {
 
     boolean isFriendly = true;
 
-    public abstract void play();
+    // public abstract void play();
+    void play();
 }

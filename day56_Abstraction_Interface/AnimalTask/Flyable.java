@@ -4,7 +4,7 @@ public interface Flyable {
 
     boolean hasWings = true;
 
-    public abstract void fly();
+   // public abstract void fly();      we can skip  public abstract in the method ==> giving by default
 
-
+        void fly();
 }
