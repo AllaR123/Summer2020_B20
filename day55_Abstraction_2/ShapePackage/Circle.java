@@ -12,8 +12,8 @@ public final class Circle extends Shape {
      */
 
 
-    double radius;
-    static double PI;
+    public double radius;
+    public static double PI;
 
     static  {
        name = "Circle";

@@ -36,11 +36,11 @@ package day55_Abstraction_2.ShapePackage;
 
         public abstract class Shape {
 
-            static String name;
-            double area;
-            double perimeter;
-            static boolean hasVolume;
-            double volume;
+            public static String name;
+            public double area;
+            public double perimeter;
+            public static boolean hasVolume;
+            public double volume;
 
 
             public abstract double calculateArea();

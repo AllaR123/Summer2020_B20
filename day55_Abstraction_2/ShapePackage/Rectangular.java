@@ -11,8 +11,8 @@ public final class Rectangular extends Shape {
             add a static block that can initialize the static variables of the rectangle
      */
 
-    double width;
-    double length;
+    public double width;
+    public double length;
 
     static  {
        name = "Rectangular";

@@ -10,7 +10,9 @@ package day57_Polymorphism.DownloadTask;
 public class iPhone extends Phone implements AppleApp, Downloadable{
 
 
-    public iPhone( String model, String size, double price) {
+    public static Object faceTiming;
+
+    public iPhone(String model, String size, double price) {
         super("Iphone", model, size, price);
         if(price > 1500){
             throw new RuntimeException("Iphone price cannot be greater than 1500");
