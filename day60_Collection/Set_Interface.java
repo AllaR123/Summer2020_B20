@@ -2,7 +2,7 @@ package day60_Collection;
 
 import java.util.*;
 
-public class SetInterface {
+public class Set_Interface {
 
     public static void main(String[] args) {
 
